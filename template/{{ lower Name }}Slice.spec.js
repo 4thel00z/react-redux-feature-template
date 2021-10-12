@@ -17,7 +17,7 @@ describe('{{ lower Name }} reducer', () => {
   // TODO: uncomment or remove
   /*
   it('should handle someAction', () => {
-    const { unpackedArg } = counterReducer(initialState, someAction());
+    const { unpackedArg } = {{ lower Name}}Reducer(initialState, someAction());
     expect(unpackedArg ).toEqual(4);
   });
   */
