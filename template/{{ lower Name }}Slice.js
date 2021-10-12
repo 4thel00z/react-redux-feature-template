@@ -62,7 +62,7 @@ export const { /* TODO: add actions here */ } = {{lower Name}}Slice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
-// in the slice file. For example: `useSelector((state: RootState) => state.counter.value)`
+// in the slice file. For example: `useSelector((state: RootState) => state.{{lower Name}}.value)`
 export const select{{ title Name }} = (state) => state;
 
 export default {{ lower Name}}Slice.reducer;
