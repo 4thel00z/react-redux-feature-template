@@ -58,7 +58,7 @@ export const {{ lower Name }}Slice = createSlice({
   },
 });
 
-export const { /* TODO: add actions here */ } = counterSlice.actions;
+export const { /* TODO: add actions here */ } = {{lower Name}}Slice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of

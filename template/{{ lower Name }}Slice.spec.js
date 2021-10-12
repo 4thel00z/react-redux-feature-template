@@ -1,7 +1,7 @@
 // Author:	{{Author}}
 // License:	{{License}}
 // Date:	{{currentDate}}
-import counterReducer, {
+import {{lower Name}}Reducer, {
   // TODO: add action name
 } from './{{ lower Name}}Slice';
 
@@ -11,7 +11,7 @@ describe('{{ lower Name }} reducer', () => {
   };
 
   it('should handle initial state', () => {
-    expect(counterReducer(undefined, { type: 'unknown' })).toEqual({
+    expect({{lower Name}}Reducer(undefined, { type: 'unknown' })).toEqual({
     });
   });
   // TODO: uncomment or remove
